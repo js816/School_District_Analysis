@@ -4,7 +4,7 @@
 
 Maria, the chief data scientist for the school district, and I worked together to conduct an analysis of the recent high school standardized math and reading testing.  
 
-The purpose of the analysis was to analyze test performance and consider various factors that could potentially impact performance.  Our analysis includes reporting at the district level, school level, and grade level within each school.  Additionally, we analyzed various factors to help understand the impact upon test performance.  These factors were per student spending, school size, and school type.  This data can provide greater insight to the board of education as they make decisions for the future.
+The purpose of the project was to analyze test performance and consider various factors that could potentially impact performance.  Our analysis includes reporting at the district level, school level, and grade level within each school.  Additionally, we analyzed various factors to help understand the impact upon test performance.  These factors were per student spending, school size, and school type.  This data can provide greater insight to the board of education as they make decisions for the future.
 
 After our initial round of analysis, abnormalities were found in the scores for 9th graders at Thomas High School.  As a result, all scores for those 421 students were removed.  (These students comprise 25.7% of Thomas’s population, and 1.1% of all high schoolers in the district.)  A second round of analysis was preformed and changes in the analysis will be discussed further below.
 
@@ -15,6 +15,7 @@ After our initial round of analysis, abnormalities were found in the scores for 
 - A total of 39,170 district students completed the standardized across the 15 high schools.  The two tables below show the results of the original (top) and updated (bottom) analysis.  
 
 - The average math score dropped 0.1 to 78.9 after the suspect scores were removed.  All other values remained consistent.  
+(The top table below shows the initial data.  The second table reflects the updates after removing Thomas High School 9th grade values.)
 ![District_summary_original](https://user-images.githubusercontent.com/82730954/119282806-a2a9f000-bc00-11eb-9ce2-20bbe5d5f6f6.PNG)
 ![District_summary_updated](https://user-images.githubusercontent.com/82730954/119282810-a76ea400-bc00-11eb-8716-4a3e88ba0df0.PNG)
 
@@ -61,7 +62,7 @@ After our initial round of analysis, abnormalities were found in the scores for 
 
 - To better understand school performance, the schools were grouped into categories based upon the per student spending.  
 
-- It was surprising to this analyst to see that the data reveal that those schools who spend less per student had significantly better performance.  It is suggested that various factors be considered to help explain this difference.
+- It was surprising to this analyst that the data reveal schools who spend less per student had significantly better performance.  It is suggested that various factors be considered to help explain this difference.  Based upon this investigation, there may be solutions to increase performance and save money.
 
 - The revised analysis did not impact these findings.  (Thomas is in the $630-$644 category.)
 ![Scores_by_student_spending_original](https://user-images.githubusercontent.com/82730954/119282942-0df3c200-bc01-11eb-95b9-58ef74153dd1.PNG)
